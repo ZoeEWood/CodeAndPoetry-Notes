@@ -8,7 +8,8 @@ Code and Poetry, Pep Talk 8
 -today, you are going to spin up a server. 
 -(in the future i'd like to take this class to visit a server farm.) 
 -you can write a piece of code that says: "spin up a hundred servers" -- this is called 'cloud orchestration' 
--today, there is a new job called devops -- it is like the rebirth of sys admin but who is a developer in his/her own right. they manage a whole orchestra of servers
+-today, there is a new job called devops -- it is like the rebirth of sys admin but who is a developer in his/her own right. 
+they manage a whole orchestra of servers
 -today, we're going to get a bit of a hands on feel of this notion of cloud computing
 
 -some administrative things: 
@@ -19,10 +20,17 @@ Code and Poetry, Pep Talk 8
 	-a specialized computer that hosts websites
 	-serves information in real time
 -normally, you do stuff locally on your computer. 
-	-you listen to music, when you're done you turn off your computer and it's really off. you were really the only user of that comp.
-	-servers are always on and they're always listening. if 1000 people contact a server at the same time, that server will be able to do that
-	-other kinds of servers: streaming music online (spotify) -- there is no need for all of us to have a copy of a pop song. 
-	-what is interesting is that there is this pendulum swing -- computers are dumb, then pc's happen and then in the past 10 years the stuff that we used to do locally is increasingly moving to a centralized server. 
+	-you listen to music, when you're done you turn off your computer and it's really off. 
+	you were really the only user of that comp.
+	-servers are always on and they're always listening. if 1000 people contact a server 
+	at the same time, that server will be able to do that
+	-other kinds of servers: streaming music online (spotify) -- there is no need for 
+
+	all of us to have a copy of a pop song. 
+	-what is interesting is that there is this pendulum swing -- computers are dumb, then 
+	pc's happen and then in the past 10 years the stuff that we used to do locally is 
+
+	increasingly moving to a centralized server. 
 	-anything that needs real time, continuous interaction (trading, for example.) 
 	-it's important to be not just a client -- we would like to move towards actually running our own servers 
 	-what kind of request depends on what kind of servers it is. 
