@@ -1,0 +1,40 @@
+/*****************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Code and Poetry, Pep Talk 5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*****************************************/
+
+
+Turing machines: 
+-the negation machine -- the tape is forever, it will negate for forever
+-affirmation machine -- the tape is forever, A=A over and over again
+-universal machine -- can take a whole machine as an input (can take on the property of any other Turing machine, and this is what makes it universal)
+	-does this mean that it can take two inputs -- the data and the operation? as opposed to just the data? 
+	-what is hardware and software here? it seems like it's kind able to rewrite its own hardware
+
+Turing's paper: 
+-computable vs. effectively computable 
+-you can compare this to a man computing real numbers 
+-this paper was incredibly influential on cognitive science 
+-machine that is aware -- there is so much allure here and this becomes very influential in artificial intelligence
+-machine can, in altering its configuration, remember some of the previous internal states
+-possible state is determine by the m configuraton AND the scan symbol. the configuration determines the behavior of a machine
+-you have to sleep on it and use your imagination a bit
+-it's a machine that can reconfigure its internal states
+-your state of mind, only kind of formalized
+
+How does the author define the state of the machine? 
+^^
+
+What is the equivalent of of software here? 
+-the tape?
+-it's not so easy to get what is software and what is hardware
+-the symbol seems to be abstractable -- more "softwareish" 
+-in the sense that anything can be reduced to the basic logic that's on the tape, I think that's 
+-it's very curious to me the distance between data and program
+-whatever data is physically in front of you (if you're cooking an omelet, the omelet is your state) is part of your state 
+-looking for a way to simply understand how booting a computer happens 
+
+-if you can reduce a field to a set of symbols, and reduce the abilities of a tractor to a set of symbols, maybe a tractor is a Turing machine (???)
+
+
