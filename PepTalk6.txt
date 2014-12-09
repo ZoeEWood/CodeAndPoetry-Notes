@@ -1,3 +1,9 @@
+/*****************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Code and Poetry, Pep Talk 6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*****************************************/
+
 -Github is the most widely used application that allows for collaboration on a project. 
 Picture a vector with a lot of vectors coming out of it that, once begun, remain 
 parallel to the original vector. The original vector is the 'master,' and the secondary
