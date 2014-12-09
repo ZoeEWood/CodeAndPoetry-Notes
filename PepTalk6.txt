@@ -6,6 +6,18 @@ and these collaborators can merge their edits with the 'master' by issuing a 'pu
 -of course, there must be an administrator who controls the master -- it is this administrator 
 who approves or declines pull requests. 
 -most companies with a huge software base have their own, proprietary versions of github   
+Here is how make a new repository in git, from terminal: 
+	-create a directory: mkdir NewDirectory
+	-put a file in that directory: touch newFile
+	-initialize your new directory as a git repository: git init (run this from 
+	inside the directory
+	-add the new file to the directory, which is not a git repository
+	-commit the file, with a message that briefly explain what changes you made
+	to the file: git commit -m "added a new file called 'newFile'"
+	-establish connection between the directory that you just initalized on you 
+	local computer as a repository that is recognized by git's servers: 
+	git remote add origin: https://github.com/YourName/NewDirectory.git
+	-push the changes you made to this newly-remote directory: git push -u origin master 
 -if two people are working on the same paragraph at the same time, with equal access privileges, 
 things will go wrong
 -to avoid this you need to use branching
