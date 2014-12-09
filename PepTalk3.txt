@@ -1,0 +1,63 @@
+/****************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Code and Poetry, Pep Talk 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*****************************************
+
+
+in prep for this section, run these commands in terminal: 
+
+brew tap homebrew/dupes
+brew install coreutils
+brew install findutils --default-names
+brew install gnu-indent --default-names
+brew install gnu-sed --default-names
+brew install gnutls --default-names
+brew install grep --default-names
+brew install gnu-tar --default-names
+brew install gawk
+
+NOW, 
+-put Mobdy Dick in your directory
+-remember find, head and tail
+-now, try grep
+	grep "string you're searching" file 
+-want to count how many times the word whale is used in moby dick? 
+	grep "whale" pg2701 | wc
+	1237 15107 87622
+	-lines, words characters. 
+	so Cool!
+
+	here, you are "piping." that's the "|" symbol
+
+-sort pg2701.txt | uniq -c 
+	-this will find how many unique lines there are in the piece and list them in alphabetical order, say how many of each exists 
+
+
+Challenge #1
+-analyze the treatment of gender in moby dick
+	-create a new directory
+	-save moby dick in direcoty
+	-make file called male, write in it some words that have to do with being male
+	-make another directory called female.txt, and do the same thing as above. 
+	-then, grep all the famale words, and grep all the female words 
+	-make two moby dicks, one with female words, one with male words
+	-then, get rid of all the common words (i.e. the and oh)
+see here for finished version of this project! http://www.columbia.edu/~zew2003/MobyProject.html
+
+Challenge #2: Weasel words
+-take a piece of writing that you wrote and check for clarity of writing
+copy 3 pieces of your own writing, then convert into plaintext
+-make a file of weasel words (you can look this up on the internet)
+-now, write a script that replaces those weasel words with " " or something else
+	-(only choose 3 weasel words)
+
+
+-want to search for engineer, tick and dog 
+-grep -wf test.txt mobdydick.txt
+
+-tokenizing: 
+	-we now need to break these up into words
+	-we now have to take each line and separate it into words
+	-command is sed (a line based substitution engine) '\s/\n/g' (substitute a space with a newline)  moby-dick.txt 
+		-this is the sed fence !!!	
