@@ -1,0 +1,26 @@
+-this set of notes is a continuation of that last one
+-keep in mind: this kind of problem solving has to do with taking a big problem and making it into a series of smaller problems. this approach is useful and widely applicable. 
+
+-analyze in a step by step way 
+
+-want to search for engineer, tick and dog
+-grep -wf test.txt mobdydick.txt
+
+-tokenizing:
+        -we now need to break these up into words
+        -we now have to take each line and separate it into words
+        -command is sed (a line based substitution engine) '\s/\n/g' (substitute a space with a newline)  moby-dick.txt 
+                -this is the sed fence !!!
+
+sed 's/\s/\n/g' AnimalsFound.txt
+
+-what is important is understanding the methodology 
+-break down "what does it mean to be human in Moby Dick" 
+-what's nice here is we have a model, and in following that model, we come up with some intuitions, some hypothesis
+
+-what I want to do, where our workshops are going, is networking
+-you need to be able to get to remote servers, you need to be able to encrypt things, navigate your way fluently through a network and all that requires some technical knowhow. I would like to take the course slightly towards that. 
+-also version control. github etc. instead of teaching you how to code
+
+-if you solidify the skills you gain in this class, learning to code will not be too difficult
+
