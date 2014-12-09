@@ -1,6 +1,8 @@
 -Github is the most widely used application that allows for collaboration on a project. 
 Picture a vector with a lot of vectors coming out of it that, once begun, remain 
-parallel to the original vector. The original vector is the 'master,' and the secondary vectors are 'branches.' These branches most often represent various collaborators, and these collaborators can merge their edits with the 'master' by issuing a 'pull request.'
+parallel to the original vector. The original vector is the 'master,' and the secondary
+vectors are 'branches.' These branches most often represent various collaborators, 
+and these collaborators can merge their edits with the 'master' by issuing a 'pull request.'
 -of course, there must be an administrator who controls the master -- it is this administrator who approves or declines pull requests. 
 -most companies with a huge software base have their own, proprietary versions fof github   
 -if two people are working on the same paragraph at the same time, with equal access privileges, things will go wrong
