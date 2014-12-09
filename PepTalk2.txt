@@ -1,0 +1,29 @@
+*********************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Code and Poetry, Pep Talk 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+***********************************************/ 
+
+-you're already ahead of the curve, just by knowing ls, pwd etc. 
+-install something called brew
+	-a concept that is very powerful, coming from the Linux world
+-macs don't come with basic tools such as wget, i.e., wget: once you've downloaded brew, you can say wget and it's all of a sudden in your central repository
+	-if you do brew install -vd wget, you will actually have wget on your computer
+	-then, try "man wget" and your computer will tell you how to use wget. this proves that it is there on your computer !!
+
+-anyway, now we're moving to a slightly more advanced level 
+-now, we're going to use all the really fun, powerful search tools 
+-we'll learn cat, head, tail, and we'll continue to explore files 
+-when we're talking about files, what do we mean by extension? 
+	-make a new directory called pdfs
+	-go online, copy the url of a pdf you like
+	-go into your pdfs folder, and run wget [URL]
+	-ls, and you should see it in your folder!
+
+-now practice head and tail
+	-head [file.pdf] should yield the first few lines
+	-tail [file.pdf] should yield the last few lines
+
+-locate: a good way to find files. just to find files. 
+	-c: will give you the number of files with the pattern 
+
