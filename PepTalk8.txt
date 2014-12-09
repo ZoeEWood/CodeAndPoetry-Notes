@@ -48,10 +48,13 @@ they manage a whole orchestra of servers
 -it's actually very trivial for us to do this. at the same time, we're making bedfellows or a whole other layer of strangeness
 -selling infrastructure is a much bigger business than selling goods. this stuff is easy to scale. 
 -Amazon said, instead of doing it the old fashioned way, we are going to create internally services that can be shared between 
-departments. at some points they said, "we're going to make this in a modular way, which will allow us to sell these services to other countries." 
+departments. at some points they said, "we're going to make this in a modular way, which will allow us to sell these services to 
+other countries." 
 -if your government blocks twitter, you can make a server 
--we have to actually think about infrastructure that allows for free speech -- for example, enabling activists from Turkey and China to communicate without servers. 
-	-then you ask questions like, what ports should i open up? what's beautiful about this is that it will force you to learn about what ports are
+-we have to actually think about infrastructure that allows for free speech -- for example, enabling activists from Turkey and 
+China to communicate without servers. 
+	-then you ask questions like, what ports should i open up? what's beautiful about this is that it will force you to learn 
+	about what ports are
 -we are almost exclusively concerned with EC2. 
 	-when you provision services in the cloud, you do it by regions, and that is one of the only hints as to where your stuff is 
 	-if you pick Singapore for your region, there will be a latency period because your information is actually traveling a pretty long way
