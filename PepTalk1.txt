@@ -1,0 +1,32 @@
+/************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Code And Poetry, Pep Talk 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+************************************************/
+
+
+-when you string commands together, i.e., piping, you have a very powerful machine
+-this happens when you start streaming data and begin to control its vector —> its trajectory
+-let's talk about the basics, then expand: 
+	-pwd (path to working directory)
+	-ls (list: show everything in current directory)
+	-cat (list contents of file to the terminal)
+	-man (manual, and most commands have a -h flag that will do something similar to man)
+	-cd (change directory, takes argument of another directory)
+	-touch (create a new blank file)
+	-echo (print text you write after echo to screen)
+		echo "hey guys" > test.txt -- this puts "hey guys" in test.txt 
+		cat test.txt should yield hey guys
+		echo "hello world" > test.txt -- will overwrite what you already had in test.txt
+		so... do echo "hello world" >> test.txt 
+	- > (overwrite everything in a file with left operand
+	- >> (appends left operand to existing file)
+	-cp (move first operand into second operand)
+	- . (shorthand for "here", i.e., the directory you're currently in)
+
+-keep in mind that spaces matter. we are used to operating in graphical environments. so the best practice is to not use space in the name of your file b/c it gets confused with the syntax of POSIX commands
+	-run everything w/ -i (asks for confirmation! this is a very good practice! especially when you are using dangerous commands like rm)
+	-there is no difference between renaming and moving -- the command mv can be used interchangeably, just be careful not to overwrite another file when you're renaming! 
+	-absolute vs. relative path: absolute is EXACT, relative situates it relative to where you already are
+	-to remove a directory: rm -r(-i, to be safe,) (remove a directory recursively. this goes in and deletes every file in a a directory, then deletes the directory)
+-idea: if you want to be really safe, make a directory called "trash" and never really remove anything! just mv everything to the trash
