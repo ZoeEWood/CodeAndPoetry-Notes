@@ -25,11 +25,9 @@ they manage a whole orchestra of servers
 	-servers are always on and they're always listening. if 1000 people contact a server 
 	at the same time, that server will be able to do that
 	-other kinds of servers: streaming music online (spotify) -- there is no need for 
-
 	all of us to have a copy of a pop song. 
 	-what is interesting is that there is this pendulum swing -- computers are dumb, then 
 	pc's happen and then in the past 10 years the stuff that we used to do locally is 
-
 	increasingly moving to a centralized server. 
 	-anything that needs real time, continuous interaction (trading, for example.) 
 	-it's important to be not just a client -- we would like to move towards actually running our own servers 
@@ -39,7 +37,8 @@ they manage a whole orchestra of servers
 -5 minute crash course in the cloud: 
 	-what happens when you get a lot of traffic on your website? you have to invest in a bigger box. 
 	-AWS are elastic -- you only pay for that larger server when the traffic comes in 
-	-in amazon, the hard drive is another service. there is one called s3 and one called elastic block. these are just different kinds of storage. 
+	-in amazon, the hard drive is another service. there is one called s3 and one called elastic block. these are just 
+	different kinds of storage. 
 	-what else might you  need on there? there is a database service, an identity service, etc. 
 	-there are a bunch of these different components 
 	-when we log into this server, it will be identical to logging in to any other server 
@@ -48,10 +47,11 @@ they manage a whole orchestra of servers
 	-Amazon runs CIA and NSA servers -- amazon takes security seriously 
 -it's actually very trivial for us to do this. at the same time, we're making bedfellows or a whole other layer of strangeness
 -selling infrastructure is a much bigger business than selling goods. this stuff is easy to scale. 
--Amazon said, instead of doing it the old fashioned way, we are going to create internally services that can be shared between departments. at some points they said, "we're going to make this in a modular way, which will allow us to sell these services to other countries." 
+-Amazon said, instead of doing it the old fashioned way, we are going to create internally services that can be shared between 
+departments. at some points they said, "we're going to make this in a modular way, which will allow us to sell these services to other countries." 
 -if your government blocks twitter, you can make a server 
--we have to actually think about infrastructre that allows for free speech -- for example, enabling activists from Turkey and China to communicate without servers. 
-	-then you aks questions like, what ports should i open up? what's beautiful about this is that it will force you to learn about what ports are
+-we have to actually think about infrastructure that allows for free speech -- for example, enabling activists from Turkey and China to communicate without servers. 
+	-then you ask questions like, what ports should i open up? what's beautiful about this is that it will force you to learn about what ports are
 -we are almost exclusively concerned with EC2. 
 	-when you provision services in the cloud, you do it by regions, and that is one of the only hints as to where your stuff is 
 	-if you pick Singapore for your region, there will be a latency period because your information is actually traveling a pretty long way
