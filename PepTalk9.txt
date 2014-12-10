@@ -37,9 +37,11 @@ Tomorrow — secure drop tutorial
 	-parenthetical: we are not doing computing in an empowered way
 		-when somebody prevents you from talking in the town square, you know what that looks like. but to recognize the 
 		equivalent online requires a certain amount of literacy 
-		-when somebody tries to infringe of the political rights of our children, we want them to be able to use ssh without a second thought
+		-when somebody tries to infringe of the political rights of our children, we want them to be able to use ssh 
+	without a second thought
 		-how does this freedom manifest itself literally, in these networks
-		-had all of these technologies existed a long time ago when philosophers were trying to right about free speach and liberty, all the problems of abstraction would be a lot less difficult because even abstract topics like liberty would have had a physical layer in digitial infrastructure
+		-had all of these technologies existed a long time ago when philosophers were trying to right about free speech 
+		and liberty, all the problems of abstraction would be a lot less difficult because even abstract topics like liberty would have had a physical layer in digital infrastructure
 -keys are a very important concept -- keys have to be secure
 	-idea for final tutorial: pgp key based on tutorial that edward snowden sent to glenn greenwald
 		
