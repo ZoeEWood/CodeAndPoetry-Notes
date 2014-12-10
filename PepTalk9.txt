@@ -1,12 +1,13 @@
 Tomorrow — secure drop tutorial
 	-how do you give a lot of information to a journalist w/o giving away your identity 
-	-there is a need to have more secure drops in the US — right now most secure drops are on 	the west coast. 
+	-there is a need to have more secure drops in the US — right now most secure drops are on the west coast. 
 	-the bare minimum is unix system administration, a few other things. 
 	-everything for the class due the 13th (Saturday at midnight)
 		-paper is due on the 19th 
 	-‘you’re creating a package of what you’ve done in this class’ 
 	-infrastructure as a service 
--the server facilities are often housed in underground bunkers that can withstand direct nuclear attack b/c much of our national security infrastructure is run from these facilities
+-the server facilities are often housed in underground bunkers that can withstand direct nuclear attack b/c much of our national security 
+infrastructure is run from these facilities
 -a server is a box and then inside, some of the parts are connected. S3 and elastic block are connected, for example 
 -a few network command line tools: 
 -ping
