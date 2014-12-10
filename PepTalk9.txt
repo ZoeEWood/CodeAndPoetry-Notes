@@ -30,13 +30,13 @@ Tomorrow — secure drop tutorial
 -ssh: session based protocol -- you're not going to just send packets in a random way but will establish a connection with a
 	particular port 
 	-all the traffic between A and B will be secured.
-	-if you're in china and twitter is blocked, but columbia is not, you can request information from columbia and get it through 
-	your tunnel
+	-if you're in china and twitter is blocked, but columbia is not, you can request information from columbia and get it 
+	through your tunnel
 	-'walking around and leaving behind us little servers' = our duty as free citizens 
 	-all the traffic will look, to whoever is monitoring it, like nothing
 	-parenthetical: we are not doing computing in an empowered way
 		-when somebody prevents you from talking in the town square, you know what that looks like. but to recognize the 
-	equivalent online requires a certain amount of literacy 
+		equivalent online requires a certain amount of literacy 
 		-when somebody tries to infringe of the political rights of our children, we want them to be able to use ssh without a second thought
 		-how does this freedom manifest itself literally, in these networks
 		-had all of these technologies existed a long time ago when philosophers were trying to right about free speach and liberty, all the problems of abstraction would be a lot less difficult because even abstract topics like liberty would have had a physical layer in digitial infrastructure
