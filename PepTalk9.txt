@@ -1,3 +1,8 @@
+/*****************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Code and Poetry, Pep Talk 9
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*****************************************/
 Tomorrow — secure drop tutorial
 	-how do you give a lot of information to a journalist w/o giving away your identity 
 	-there is a need to have more secure drops in the US — right now most secure drops are on the west coast. 
