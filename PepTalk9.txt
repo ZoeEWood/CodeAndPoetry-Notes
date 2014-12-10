@@ -42,7 +42,8 @@ infrastructure is run from these facilities
 	without a second thought
 		-how does this freedom manifest itself literally, in these networks
 		-had all of these technologies existed a long time ago when philosophers were trying to right about free speech 
-		and liberty, all the problems of abstraction would be a lot less difficult because even abstract topics like liberty would have had a physical layer in digital infrastructure
+		and liberty, all the problems of abstraction would be a lot less difficult because even abstract topics like 
+	liberty would have had a physical layer in digital infrastructure
 -keys are a very important concept -- keys have to be secure
 	-idea for final tutorial: pgp key based on tutorial that edward snowden sent to glenn greenwald
 		
