@@ -1,86 +1,54 @@
 /*****************************************
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Code and Poetry, Pep Talk 8
+Code and Poetry, Pep Talk 9
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 *****************************************/
--from previous peptalk: 
-	-You're not supposed to say it out loud that you're a humanist.
-	-We are in an intellectual moment where there is much thought, philosophy, anthropology that concerns itself with 
-	something other than the human. we're in this moment.
-	-often, this movement is billed as really progressive.
-	-in the name of humanism, the pinnacle of humanism, besides bringing liberation and western style democracies, it has 
-	also brought war subjugation etc.
-	-great and terrible things have been done in the name of humanism and that is why it is in some way not politically 
-	correct.
-	-what exactly is post-humanism or trans-humanism
-	-what exactly is problem with post-humanism
-	-How Forests Think: anthropology of indiginous people who believe that they are communicating with animals, forests, 
-	etc. bringing in the semiotics of animal communication into our world, our human world, and we're responsible for much more than our well being. We are just a small part of the planet.
-	-post humanism as latent monism (the universe is one)
-        -it is monism that is problematic
-
-begining current pep talk: 
-
--today, we are going to all give and receive the gift of a thousand new computers. 
--servers today are abstractions. it's 'in the cloud' 
--today, you are going to spin up a server. 
--(in the future i'd like to take this class to visit a server farm.) 
--you can write a piece of code that says: "spin up a hundred servers" -- this is called 'cloud orchestration' 
--today, there is a new job called devops -- it is like the rebirth of sys admin but who is a developer in his/her own right. 
-they manage a whole orchestra of servers
--today, we're going to get a bit of a hands on feel of this notion of cloud computing
-
--some administrative things: 
-	-do weasel words (oops)
-	-all the homeworks should be in by the 13th (lab notebooks, weasel words, etc.)
--what is a server?
-	-a storage space/brain
-	-a specialized computer that hosts websites
-	-serves information in real time
--normally, you do stuff locally on your computer. 
-	-you listen to music, when you're done you turn off your computer and it's really off. 
-	you were really the only user of that comp.
-	-servers are always on and they're always listening. if 1000 people contact a server 
-	at the same time, that server will be able to do that
-	-other kinds of servers: streaming music online (spotify) -- there is no need for 
-	all of us to have a copy of a pop song. 
-	-what is interesting is that there is this pendulum swing -- computers are dumb, then 
-	pc's happen and then in the past 10 years the stuff that we used to do locally is 
-	increasingly moving to a centralized server. 
-	-anything that needs real time, continuous interaction (trading, for example.) 
-	-it's important to be not just a client -- we would like to move towards actually running our own servers 
-	-what kind of request depends on what kind of servers it is. 
-	-in short, just a computer that's always on. 
--we are going to create a virtual server -- a server in a cloud. 
--5 minute crash course in the cloud: 
-	-what happens when you get a lot of traffic on your website? you have to invest in a bigger box. 
-	-AWS are elastic -- you only pay for that larger server when the traffic comes in 
-	-in amazon, the hard drive is another service. there is one called s3 and one called elastic block. these are just 
-	different kinds of storage. 
-	-what else might you  need on there? there is a database service, an identity service, etc. 
-	-there are a bunch of these different components 
-	-when we log into this server, it will be identical to logging in to any other server 
-	-in AWS, we don't have control of the material substratum
-	-a huge number of companies are run like this -- most companies today do not invest in their own hardware
-	-Amazon runs CIA and NSA servers -- amazon takes security seriously 
--it's actually very trivial for us to do this. at the same time, we're making bedfellows or a whole other layer of strangeness
--selling infrastructure is a much bigger business than selling goods. this stuff is easy to scale. 
--Amazon said, instead of doing it the old fashioned way, we are going to create internally services that can be shared between 
-departments. at some points they said, "we're going to make this in a modular way, which will allow us to sell these services to 
-other countries." 
--if your government blocks twitter, you can make a server 
--we have to actually think about infrastructure that allows for free speech -- for example, enabling activists from Turkey and 
-China to communicate without servers. 
-	-then you ask questions like, what ports should i open up? what's beautiful about this is that it will force you to learn 
-	about what ports are
--we are almost exclusively concerned with EC2. 
-	-when you provision services in the cloud, you do it by regions, and that is one of the only hints as to where your stuff is 
-	-if you pick Singapore for your region, there will be a latency period because your information is actually traveling a pretty long way
-	-important: instances 
-		-launch an instance -- choose ubuntu instance 
-		-here's where you choose how powerful you want your server to be 
-		-this stuff is really powerful
-		-for the moment, you just want one instance of this
-		-you can write a little script that says, "spin up this many servers, do this thing, then kill 'em" 
--by next monday we'll log into this computer and do cool stuff with it. 
-
+Tomorrow — secure drop tutorial
+	-how do you give a lot of information to a journalist w/o giving away your identity 
+	-there is a need to have more secure drops in the US — right now most secure drops are on the west coast. 
+	-the bare minimum is unix system administration, a few other things. 
+	-everything for the class due the 13th (Saturday at midnight)
+		-paper is due on the 19th 
+	-‘you’re creating a package of what you’ve done in this class’ 
+	-infrastructure as a service 
+-the server facilities are often housed in underground bunkers that can withstand direct nuclear attack b/c much of our national 
+security infrastructure is run from these facilities
+-a server is a box and then inside, some of the parts are connected. S3 and elastic block are connected, for example 
+-a few network command line tools: 
+-ping
+	-latency: how long it takes you to get a response back 
+	-if you’re able to ping in through terminal it means that your computer is okay
+-remember the general architecture 
+-traceroute
+	-shows you everywhere the information has travelled 
+	-who is cogentco.com? this is where it goes after Columbia
+	-From Website: 
+	Net Neutrality
+	Cogent practices net neutrality. We do not prioritize packet transmissions on the basis of the content of the packet, 
+	the customer or network that is the source of the packet, or the customer or network that is the recipient of the packet. 
+	Where there are network problems such as congestion at interconnection points or fiber cuts we implement network 
+	management tools to minimize harm to the users of our network.
+	It is Cogent's belief that both the customer and the Internet as a whole are best served if the application layer remains 
+	independent from the network. Innovation in the development of new applications is fueled by the individual's ability to 
+	reach as many people as possible without regard to complicated gating factors such as tiered pricing or bandwidth 
+	structures used by legacy service providers.
+	Applications proliferate in a free market economy which is the Internet today.
+-ssh: session based protocol -- you're not going to just send packets in a random way but will establish a connection with a
+	particular port 
+	-all the traffic between A and B will be secured.
+	-if you're in china and twitter is blocked, but columbia is not, you can request information from columbia and get it 
+	through your tunnel
+	-'walking around and leaving behind us little servers' = our duty as free citizens 
+	-all the traffic will look, to whoever is monitoring it, like nothing
+	-parenthetical: we are not doing computing in an empowered way
+		-when somebody prevents you from talking in the town square, you know what that looks like. but to recognize the 
+		equivalent online requires a certain amount of literacy 
+		-when somebody tries to infringe of the political rights of our children, we want them to be able to use ssh 
+		without a second thought
+		-how does this freedom manifest itself literally, in these networks
+		-had all of these technologies existed a long time ago when philosophers were trying to right about free speech 
+		and liberty, all the problems of abstraction would be a lot less difficult because even abstract topics like 
+		liberty would have had a physical layer in digital infrastructure
+-keys are a very important concept -- keys have to be secure
+	-idea for final tutorial: pgp key based on tutorial that edward snowden sent to glenn greenwald
+		
