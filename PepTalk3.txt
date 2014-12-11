@@ -17,6 +17,8 @@ brew install grep --default-names
 brew install gnu-tar --default-names
 brew install gawk
 
+-now, (if you're working with an Apple computer) you have the capacity to download really useful tools that Apple doesn't have! 
+
 NOW, 
 -put Mobdy Dick in your directory
 -remember find, head and tail
