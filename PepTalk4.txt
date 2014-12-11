@@ -1,5 +1,6 @@
 -this set of notes is a continuation of that last one
--keep in mind: this kind of problem solving has to do with taking a big problem and making it into a series of smaller problems. this approach is useful and widely applicable. 
+-keep in mind: this kind of problem solving has to do with taking a big problem and making it into a series of smaller problems. 
+this approach is useful and widely applicable. 
 
 -analyze in a step by step way 
 
@@ -13,6 +14,9 @@
                 -this is the sed fence !!!
 
 sed 's/\s/\n/g' AnimalsFound.txt
+
+-sed stands for 'stream editor' and is known as a being "Turing complete" which bascially means that it can solve any computation problem.
+-we're obviously using it very simply right now, but it's important to keep in mind how powerful sed is
 
 -what is important is understanding the methodology 
 -break down "what does it mean to be human in Moby Dick" 
