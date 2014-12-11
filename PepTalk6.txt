@@ -25,7 +25,7 @@ Here is how make a new repository in git, from terminal:
 	git remote add origin: https://github.com/YourName/NewDirectory.git
 	-push the changes you made to this newly-remote directory: git push -u origin master 
 -if two people are working on the same paragraph at the same time, with equal access privileges, 
-things will go wrong
+things will go wrong.
 -to avoid this you need to use branching
 -branching: entirely dependent on the sources being in md or plaintext -- any format where what you see is 
 really what you get. 
