@@ -15,7 +15,8 @@ this approach is useful and widely applicable.
 
 sed 's/\s/\n/g' AnimalsFound.txt
 
--sed stands for 'stream editor' and is known as a being "Turing complete" which bascially means that it can solve any computation problem.
+-sed stands for 'stream editor' and is known as a being "Turing complete" which bascially means that it can solve any computation 
+problem.
 -we're obviously using it very simply right now, but it's important to keep in mind how powerful sed is
 
 -what is important is understanding the methodology 
